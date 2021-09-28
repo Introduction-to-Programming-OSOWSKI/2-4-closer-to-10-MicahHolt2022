@@ -5,6 +5,6 @@ def close10(a,b):
     elif abs((10 - b)) > abs((10 - a)):
         return a
     else:
-        return "0"
+        return 0
 
-print(close10(8,11))
+print(close10(5,15))
